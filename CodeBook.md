@@ -29,8 +29,7 @@ The script run_analysis.R does the following:
 	Note: Please set the working directory where you would like to place the data. 
 	Relative paths are used in the script and will use the current working directory as the base path.
 
-
-	* Creates the necessary file structure to hold the data (./human_activity_data/
+	* Creates the necessary file structure to hold the data (./human_activity_data/)
 	* Downloads the data zip file from the internet
 	* Unzips the file into ./human_activity_data/UCI HAR Dataset/
 	* Build a data set for the Activities
