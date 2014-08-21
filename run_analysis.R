@@ -1,9 +1,6 @@
 # project for peer assessment by Matt Moyer
 
-# set by user
-getwd()
-setwd("C:\\git_projects\\datasciencecoursera\\Getting_Cleaning_Data\\FinalProject")
-getwd()
+# the working directory should be set by the user
 
 # create the directory structure
 if(!file.exists("activity_data"))
