@@ -4,15 +4,15 @@ The goal is to prepare tidy data that can be used for later analysis.
 
 ### Variables
 
-   * ID of the subject (30 subjects)
-   * Activity label :
+   ID of the subject (30 subjects)
+   Activity label :
         Walking,
         Walking Upstairs,
         Walking Downstairs,
         Sitting,
         Standing,
         Laying
-   * Mean and standard deviation of measurements from :
+   Mean and standard deviation of measurements from :
         Accelerometer (units : g),
         Gyroscope (units : radians/second)
 
@@ -26,21 +26,21 @@ The dataset used: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2
 
 The script run_analysis.R does the following:
 	
-	Note: Please set the working directory where you would like to place the data. 
-	Relative paths are used in the script and will use the current working directory as the base path.
+Note: Please set the working directory where you would like to place the data. 
+Relative paths are used in the script and will use the current working directory as the base path.
 
-	* Creates the necessary file structure to hold the data (./human_activity_data/)
-	* Downloads the data zip file from the internet
-	* Unzips the file into ./human_activity_data/UCI HAR Dataset/
-	* Build a data set for the Activities
-	* Build a data set for the Measurements
-	* Build a data set for the Subjects
-	* Merge data (Subjects, Activities and Measurements)
-	* Extract only the measurements for the mean and standard deviation
-	* Create an aggregate data set (mean)
-	* Write output files
+- Creates the necessary file structure to hold the data (./human_activity_data/)
+- Downloads the data zip file from the internet
+- Unzips the file into ./human_activity_data/UCI HAR Dataset/
+- Build a data set for the Activities
+- Build a data set for the Measurements
+- Build a data set for the Subjects
+- Merge data (Subjects, Activities and Measurements)
+- Extract only the measurements for the mean and standard deviation
+- Create an aggregate data set (mean)
+- Write output files
 
-	* Additional package required : No
+- Additional package required : No
 
 By merging the train and test data set, we get 10,299 rows and 563 variables (561
 measurements, activity labels and subject identifier).
